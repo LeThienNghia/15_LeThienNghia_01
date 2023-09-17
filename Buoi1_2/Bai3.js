@@ -54,3 +54,31 @@ if (avgDolphins.avg3 > avgKoalas.avg3) {
 } else {
     console.log("Đội Koalas có điểm trung bình cao hơn đội Dolphins");
 }
+
+//Bonus 1:
+if (dolphins.dt1 > 100 || Koalas.dt1 > 100) {
+    if (dolphins.dt1[1] > Koalas.dt1[1]) {
+        console.log("Bonus 1: Dolphins");
+    } else {
+        console.log("Bonus 1: Koalas");
+    }
+}
+
+let chuanBonus1Dolphins = []
+let chuanBonus1Koalas = []
+for (let index = 0; index < dolphins.dt1.length; index++) {
+    const element = dolphins.dt1[index];
+    if (element > 100) {
+        chuanBonus1Dolphins.push(element)
+    }
+}
+for (let index = 0; index < Koalas.dt1.length; index++) {
+    const element = Koalas.dt1[index];
+    if (element > 100) {
+        chuanBonus1Koalas.push(element)
+    }
+}
+for (let index = 0; index < chuanBonus1Dolphins.length; index++) {
+    const element = array[index];
+
+}
