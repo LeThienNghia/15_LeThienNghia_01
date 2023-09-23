@@ -52,6 +52,3 @@ if (bmiMark2 > bmiJohn2) {
 } else {
     console.log("John's BMI (" + bmiJohn2 + ") is higher than Mark's (" + bmiMark2 + ")!")
 }
-
-
-///////
